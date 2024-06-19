@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProsperDaily.MVVM.Views.DashboardPage"
+             Title="DashboardPage">
+    <Grid RowDefinitions=".15*, .15*, .15*, .55*">
+        <RoundRectangle Grid.RowSpan="2"
+                        StyleClass="TopRectangle"/>
+
+        <VerticalStackLayout StyleClass="Header">
+            <Label StyleClass="HeaderTitle"
+                   Text="GoodMorning,"/>
+            <Label StyleClass="HeaderSubTitle"
+                   Text="Héctor Pérez"/>
+        </VerticalStackLayout>
+
+        <Grid Grid.Row="1"
+              Grid.RowSpan="2"
+              StyleClass="BalanceGrid">
+
+            <RoundRectangle StyleClass="BalanceRectangle"/>
+
+            <Grid ColumnDefinitions="*, *"
+                  RowDefinitions=".333*, .333*, .333*"
+                  StyleClass="Padding25">
+                <VerticalStackLayout>
+                    <Label Text="Total Balance"/>
+                    <Label StyleClass="StrongTitle"
+                           Text="$1,234.00"/>
+                </VerticalStackLayout>
+                <VerticalStackLayout Grid.Row="2">
+                    <Label Text="Income"/>
+                    <Label StyleClass="StrongSubTitle"
+                           Text="$1,234.00"/>
+                </VerticalStackLayout>
+                <VerticalStackLayout Grid.Row="2"
+                                     Grid.Column="1"
+                                     HorizontalOptions="Center">
+                    <Label Text="Expenses"/>
+                    <Label StyleClass="StrongSubTitle"
+                           Text="$1,234.00"/>
+                </VerticalStackLayout>
+            </Grid>
+        </Grid>
+
+        <Button Grid.Row="2"
+                StyleClass="CircularButton"
+                Text="+"/>
+
+        <Grid Grid.Row="3"
+              StyleClass="Margin15"
+              RowDefinitions=".1*, .9*">
+            <Label Text="Transactions"/>
+            <CollectionView Grid.Row="1"
+                            EmptyView="No Data">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical"
+                                       ItemSpacing="15"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.EmptyViewTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Label Text="No Data Found, click the button below to add a new transaction"
+                                   StyleClass="NoDataText"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.EmptyViewTemplate>
+                <CollectionView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>mono</x:String>
+                        <x:String>monodroid</x:String>
+                        <x:String>monotouch</x:String>
+                        <x:String>Item 4</x:String>
+                        <x:String>Item 5</x:String>
+                        <x:String>Item 6</x:String>
+                        <x:String>Item 7</x:String>
+                        <x:String>Item 8</x:String>
+                        <x:String>Item 9</x:String>
+                        <x:String>Item 10</x:String>
+                    </x:Array>
+                </CollectionView.ItemsSource>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid RowDefinitions="*,*"
+                                ColumnDefinitions="*, *">
+                            <Label Text="Transaction"
+                                   StyleClass="StrongMediumTitle"/>
+                            <Label Grid.Row="1"
+                                   Text="Today"
+                                   StyleClass="SmallFont"/>
+                            <Label Grid.Column="1"
+                                   Grid.RowSpan="2"
+                                   StyleClass="ListAmount"
+                                   Text="$1,234.00"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+    </Grid>
+</ContentPage>

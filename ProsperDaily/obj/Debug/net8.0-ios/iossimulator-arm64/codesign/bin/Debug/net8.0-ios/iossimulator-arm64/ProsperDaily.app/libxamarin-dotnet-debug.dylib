@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/ProsperDaily.app/libxamarin-dotnet-debug.dylib
