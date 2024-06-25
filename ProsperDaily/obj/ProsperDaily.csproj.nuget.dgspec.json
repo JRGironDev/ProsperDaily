@@ -72,6 +72,10 @@
               "target": "Package",
               "version": "[8.0.6, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[26.1.39, )"
             }
           },
           "imports": [
@@ -115,6 +119,10 @@
               "target": "Package",
               "version": "[8.0.6, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[26.1.39, )"
             }
           },
           "imports": [
@@ -158,6 +166,10 @@
               "target": "Package",
               "version": "[8.0.6, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[26.1.39, )"
             }
           },
           "imports": [
@@ -184,7 +196,22 @@
         }
       },
       "runtimes": {
+        "android-arm": {
+          "#import": []
+        },
+        "android-arm64": {
+          "#import": []
+        },
+        "android-x64": {
+          "#import": []
+        },
+        "android-x86": {
+          "#import": []
+        },
         "iossimulator-arm64": {
+          "#import": []
+        },
+        "maccatalyst-arm64": {
           "#import": []
         }
       }

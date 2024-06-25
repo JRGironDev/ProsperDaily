@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NXZZJeBCpL0=",
+  "dgSpecHash": "bP510Rf8FPs=",
   "success": true,
   "projectFilePath": "/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/ProsperDaily.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,9 @@
     "/Users/josequinonez/.nuget/packages/microsoft.maui.graphics/8.0.21/microsoft.maui.graphics.8.0.21.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/microsoft.maui.resizetizer/8.0.21/microsoft.maui.resizetizer.8.0.21.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/microsoft.net.illink.tasks/8.0.6/microsoft.net.illink.tasks.8.0.6.nupkg.sha512",
+    "/Users/josequinonez/.nuget/packages/syncfusion.licensing/26.1.39/syncfusion.licensing.26.1.39.nupkg.sha512",
+    "/Users/josequinonez/.nuget/packages/syncfusion.maui.charts/26.1.39/syncfusion.maui.charts.26.1.39.nupkg.sha512",
+    "/Users/josequinonez/.nuget/packages/syncfusion.maui.core/26.1.39/syncfusion.maui.core.26.1.39.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/xamarin.android.glide/4.15.1.2/xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/xamarin.android.glide.annotations/4.15.1.2/xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/xamarin.android.glide.disklrucache/4.15.1.2/xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",
@@ -108,12 +111,5 @@
     "/Users/josequinonez/.nuget/packages/xamarin.kotlinx.coroutines.android/1.7.2.1/xamarin.kotlinx.coroutines.android.1.7.2.1.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/xamarin.kotlinx.coroutines.core.jvm/1.7.2.1/xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json."
-    }
-  ]
+  "logs": []
 }
