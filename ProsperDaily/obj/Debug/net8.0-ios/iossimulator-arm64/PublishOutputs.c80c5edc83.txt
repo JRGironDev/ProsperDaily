@@ -49,6 +49,9 @@
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/Microsoft.Maui.dll
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/Microsoft.Maui.Essentials.dll
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/Microsoft.Maui.Graphics.dll
+/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/Syncfusion.Licensing.dll
+/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/Syncfusion.Maui.Charts.dll
+/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/Syncfusion.Maui.Core.dll
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/Microsoft.Maui.Controls.HotReload.Forms.dll
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/Microsoft.VisualStudio.DesignTools.TapContract.dll

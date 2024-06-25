@@ -40,6 +40,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ProsperDaily.MVVM.Views.Da
 build_metadata.AdditionalFiles.TargetPath = MVVM/Views/DashboardPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM/Views/DashboardPage.xaml
 
+[/Users/josequinonez/C\#/MAUI/ProsperDaily/ProsperDaily/MVVM/Views/StatisticsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProsperDaily.MVVM.Views.StatisticsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM/Views/StatisticsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM/Views/StatisticsPage.xaml
+
 [/Users/josequinonez/C\#/MAUI/ProsperDaily/ProsperDaily/MVVM/Views/TransactionsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProsperDaily.MVVM.Views.TransactionsPage.xaml
