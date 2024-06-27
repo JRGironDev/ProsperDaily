@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProsperDaily")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+163e90539961eed162cd437aad15812bcc7c5429")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+93466f9853bec1e56c982a3e62476a5742aa121b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProsperDaily")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProsperDaily")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
