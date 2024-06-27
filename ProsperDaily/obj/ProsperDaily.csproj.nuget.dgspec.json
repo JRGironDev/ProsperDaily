@@ -73,9 +73,21 @@
               "version": "[8.0.6, )",
               "autoReferenced": true
             },
+            "SQLiteNetExtensions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SQLitePCLRaw.provider.dynamic_cdecl": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
             "Syncfusion.Maui.Charts": {
               "target": "Package",
               "version": "[26.1.39, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -120,9 +132,21 @@
               "version": "[8.0.6, )",
               "autoReferenced": true
             },
+            "SQLiteNetExtensions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SQLitePCLRaw.provider.dynamic_cdecl": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
             "Syncfusion.Maui.Charts": {
               "target": "Package",
               "version": "[26.1.39, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -167,9 +191,21 @@
               "version": "[8.0.6, )",
               "autoReferenced": true
             },
+            "SQLiteNetExtensions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SQLitePCLRaw.provider.dynamic_cdecl": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
             "Syncfusion.Maui.Charts": {
               "target": "Package",
               "version": "[26.1.39, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -196,7 +232,22 @@
         }
       },
       "runtimes": {
+        "android-arm": {
+          "#import": []
+        },
+        "android-arm64": {
+          "#import": []
+        },
+        "android-x64": {
+          "#import": []
+        },
+        "android-x86": {
+          "#import": []
+        },
         "iossimulator-arm64": {
+          "#import": []
+        },
+        "maccatalyst-arm64": {
           "#import": []
         }
       }
