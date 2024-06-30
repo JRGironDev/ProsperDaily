@@ -1,5 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-using ProsperDaily.MVVM.Models;
+﻿using ProsperDaily.MVVM.Models;
 using ProsperDaily.MVVM.Views;
 using ProsperDaily.Repositories;
 
@@ -7,16 +6,16 @@ namespace ProsperDaily;
 
 public partial class App : Application
 {
-	public static BaseRepository<Transaction> TransactionRepo { get; private set; }
+	public static BaseRepository<Transaction> TransactionsRepo { get; private set; }
 
-	public App(BaseRepository<Transaction> _transactionRepo)
+	public App(BaseRepository<Transaction> _transactionsRepo)
 	{
 		InitializeComponent();
 
-		TransactionRepo = _transactionRepo;
+		TransactionsRepo = _transactionsRepo;
 
 		//MainPage = new NavigationPage(new DashboardPage());
 
-		MainPage = new MainPage();
+		MainPage = new DashboardPage();
 	}
 }

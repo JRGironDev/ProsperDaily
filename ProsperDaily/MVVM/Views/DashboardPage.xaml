@@ -52,7 +52,8 @@
               RowDefinitions=".1*, .9*">
             <Label Text="Transactions"/>
             <CollectionView Grid.Row="1"
-                            EmptyView="No Data">
+                            EmptyView="No Data"
+                            ItemsSource="{Binding Transactions}">
                 <CollectionView.ItemsLayout>
                     <LinearItemsLayout Orientation="Vertical"
                                        ItemSpacing="15"/>
@@ -67,33 +68,19 @@
                         </Grid>
                     </DataTemplate>
                 </CollectionView.EmptyViewTemplate>
-                <CollectionView.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>mono</x:String>
-                        <x:String>monodroid</x:String>
-                        <x:String>monotouch</x:String>
-                        <x:String>Item 4</x:String>
-                        <x:String>Item 5</x:String>
-                        <x:String>Item 6</x:String>
-                        <x:String>Item 7</x:String>
-                        <x:String>Item 8</x:String>
-                        <x:String>Item 9</x:String>
-                        <x:String>Item 10</x:String>
-                    </x:Array>
-                </CollectionView.ItemsSource>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid RowDefinitions="*,*"
                                 ColumnDefinitions="*, *">
-                            <Label Text="Transaction"
+                            <Label Text="{Binding Name}"
                                    StyleClass="StrongMediumTitle"/>
                             <Label Grid.Row="1"
-                                   Text="Today"
+                                   Text="{Binding TransactionDate, StringFormat='{0:MM/dd/yyyy}'}"
                                    StyleClass="SmallFont"/>
                             <Label Grid.Column="1"
                                    Grid.RowSpan="2"
                                    StyleClass="ListAmount"
-                                   Text="$1,234.00"/>
+                                   Text="{Binding Amount, StringFormat='{0:C}'}"/>
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

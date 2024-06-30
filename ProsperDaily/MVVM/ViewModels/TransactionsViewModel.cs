@@ -13,8 +13,8 @@ public class TransactionsViewModel
             return "Amount must be greater than 0";
         }
 
-        App.TransactionRepo.SaveItem(Transaction);
+        App.TransactionsRepo.SaveItem(Transaction);
 
-        return App.TransactionRepo.StatusMessage;
+        return App.TransactionsRepo.StatusMessage;
     }
 }

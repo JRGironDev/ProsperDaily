@@ -328,12 +328,3 @@
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/SQLitePCLRaw.provider.dynamic_cdecl.dll
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/SQLitePCLRaw.lib.e_sqlite3.ios.dll
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/SQLitePCLRaw.provider.internal.dll
-/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Newtonsoft.Json.stamp
-/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/SQLite-net.stamp
-/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/SQLiteNetExtensions.stamp
-/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/SQLitePCLRaw.batteries_v2.stamp
-/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/SQLitePCLRaw.core.stamp
-/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/SQLitePCLRaw.lib.e_sqlite3.ios.stamp
-/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/SQLitePCLRaw.nativelibrary.stamp
-/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/SQLitePCLRaw.provider.dynamic_cdecl.stamp
-/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/SQLitePCLRaw.provider.internal.stamp

@@ -1,4 +1,14 @@
-﻿namespace ProsperDaily.MVVM.ViewModels;
+﻿using ProsperDaily.MVVM.Models;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace ProsperDaily.MVVM.ViewModels;
+
 
 public class DashboardViewModel
 {
@@ -6,6 +16,13 @@ public class DashboardViewModel
 
     public DashboardViewModel()
     {
-        Transactions = new ObservableCollection<Transaction>(App.TransactionRepo.GetItems());
+        FillData();
+    }
+
+    private void FillData()
+    {
+        var transactions = App.TransactionsRepo.GetItems();
+        transactions = transactions.OrderByDescending(x => x.OperationDate).ToList();
+        Transactions = new ObservableCollection<Transaction>(transactions);
     }
 }
