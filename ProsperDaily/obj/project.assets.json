@@ -2,6 +2,12 @@
   "version": 3,
   "targets": {
     "net8.0-android34.0": {
+      "Fody/6.6.3": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -456,6 +462,25 @@
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "PropertyChanged.Fody/4.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "sqlite-net-pcl/1.8.116": {
@@ -2413,6 +2438,12 @@
       }
     },
     "net8.0-android34.0/iossimulator-arm64": {
+      "Fody/6.6.3": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -2867,6 +2898,25 @@
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "PropertyChanged.Fody/4.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "sqlite-net-pcl/1.8.116": {
@@ -4824,6 +4874,12 @@
       }
     },
     "net8.0-ios17.2": {
+      "Fody/6.6.3": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -5325,6 +5381,25 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "PropertyChanged.Fody/4.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "sqlite-net-pcl/1.8.116": {
@@ -6094,6 +6169,12 @@
       }
     },
     "net8.0-ios17.2/iossimulator-arm64": {
+      "Fody/6.6.3": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -6595,6 +6676,25 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "PropertyChanged.Fody/4.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -7559,6 +7659,12 @@
       }
     },
     "net8.0-maccatalyst17.2": {
+      "Fody/6.6.3": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -8060,6 +8166,25 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "PropertyChanged.Fody/4.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "sqlite-net-pcl/1.8.116": {
@@ -8836,6 +8961,12 @@
       }
     },
     "net8.0-maccatalyst17.2/iossimulator-arm64": {
+      "Fody/6.6.3": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -9337,6 +9468,25 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "PropertyChanged.Fody/4.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -10281,6 +10431,39 @@
     }
   },
   "libraries": {
+    "Fody/6.6.3": {
+      "sha512": "X1WKKgSNYVtLzdO8dK3YWmfmljA4L0soePcWNouq9X6WbVF4bmivuJdlhTZx/2L3ml6tMvhFe8skIbVQ24PAYA==",
+      "type": "package",
+      "path": "fody/6.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/Fody.targets",
+        "fody.6.6.3.nupkg.sha512",
+        "fody.nuspec",
+        "netclassictask/Fody.dll",
+        "netclassictask/FodyCommon.dll",
+        "netclassictask/FodyHelpers.dll",
+        "netclassictask/FodyIsolated.dll",
+        "netclassictask/Mono.Cecil.Pdb.dll",
+        "netclassictask/Mono.Cecil.Pdb.pdb",
+        "netclassictask/Mono.Cecil.Rocks.dll",
+        "netclassictask/Mono.Cecil.Rocks.pdb",
+        "netclassictask/Mono.Cecil.dll",
+        "netclassictask/Mono.Cecil.pdb",
+        "netstandardtask/Fody.dll",
+        "netstandardtask/FodyCommon.dll",
+        "netstandardtask/FodyHelpers.dll",
+        "netstandardtask/FodyIsolated.dll",
+        "netstandardtask/Mono.Cecil.Pdb.dll",
+        "netstandardtask/Mono.Cecil.Pdb.pdb",
+        "netstandardtask/Mono.Cecil.Rocks.dll",
+        "netstandardtask/Mono.Cecil.Rocks.pdb",
+        "netstandardtask/Mono.Cecil.dll",
+        "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
     "GoogleGson/2.10.1.4": {
       "sha512": "L1vdbwbQzvKUoUGiMpMoJG5fqfLXaP6zMy1a26AYJQJSQKUO7Ojr2U5BAmgQoRxQ8J2GDjBfnfgnrsnorb4y5Q==",
       "type": "package",
@@ -11620,6 +11803,27 @@
         "newtonsoft.json.9.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "PropertyChanged.Fody/4.0.3": {
+      "sha512": "vRxEDydahhcetswKaoUug7mQywgpZpHoeHZWa7Opb+H+eWPUQo+f+v37Jy+rrG1RVOCkyziTgCkNetXzNlUXJw==",
+      "type": "package",
+      "path": "propertychanged.fody/4.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/PropertyChanged.Fody.Analyzer.dll",
+        "build/PropertyChanged.Fody.props",
+        "lib/net40/PropertyChanged.dll",
+        "lib/net40/PropertyChanged.xml",
+        "lib/netstandard2.0/PropertyChanged.dll",
+        "lib/netstandard2.0/PropertyChanged.xml",
+        "lib/netstandard2.1/PropertyChanged.dll",
+        "lib/netstandard2.1/PropertyChanged.xml",
+        "propertychanged.fody.4.0.3.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "weaver/PropertyChanged.Fody.dll",
+        "weaver/PropertyChanged.Fody.xcf"
       ]
     },
     "runtime.any.System.Collections/4.0.11": {
@@ -16592,6 +16796,7 @@
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
       "Microsoft.NET.ILLink.Tasks >= 8.0.6",
+      "PropertyChanged.Fody >= 4.0.3",
       "SQLiteNetExtensions >= 2.1.0",
       "SQLitePCLRaw.bundle_e_sqlite3 >= 2.1.6",
       "SQLitePCLRaw.provider.dynamic_cdecl >= 2.1.2",
@@ -16603,6 +16808,7 @@
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
       "Microsoft.NET.ILLink.Tasks >= 8.0.6",
+      "PropertyChanged.Fody >= 4.0.3",
       "SQLiteNetExtensions >= 2.1.0",
       "SQLitePCLRaw.bundle_e_sqlite3 >= 2.1.6",
       "SQLitePCLRaw.provider.dynamic_cdecl >= 2.1.2",
@@ -16614,6 +16820,7 @@
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
       "Microsoft.NET.ILLink.Tasks >= 8.0.6",
+      "PropertyChanged.Fody >= 4.0.3",
       "SQLiteNetExtensions >= 2.1.0",
       "SQLitePCLRaw.bundle_e_sqlite3 >= 2.1.6",
       "SQLitePCLRaw.provider.dynamic_cdecl >= 2.1.2",
@@ -16693,6 +16900,10 @@
             "version": "[8.0.6, )",
             "autoReferenced": true
           },
+          "PropertyChanged.Fody": {
+            "target": "Package",
+            "version": "[4.0.3, )"
+          },
           "SQLiteNetExtensions": {
             "target": "Package",
             "version": "[2.1.0, )"
@@ -16756,6 +16967,10 @@
             "version": "[8.0.6, )",
             "autoReferenced": true
           },
+          "PropertyChanged.Fody": {
+            "target": "Package",
+            "version": "[4.0.3, )"
+          },
           "SQLiteNetExtensions": {
             "target": "Package",
             "version": "[2.1.0, )"
@@ -16818,6 +17033,10 @@
             "target": "Package",
             "version": "[8.0.6, )",
             "autoReferenced": true
+          },
+          "PropertyChanged.Fody": {
+            "target": "Package",
+            "version": "[4.0.3, )"
           },
           "SQLiteNetExtensions": {
             "target": "Package",

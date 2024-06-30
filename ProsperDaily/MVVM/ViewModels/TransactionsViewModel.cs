@@ -4,7 +4,10 @@ namespace ProsperDaily;
 
 public class TransactionsViewModel
 {
-    public Transaction Transaction { get; set; } = new Transaction();
+    public Transaction Transaction { get; set; } = new Transaction()
+    {
+        OperationDate = DateTime.Now
+    };
 
     public string SaveTransaction()
     {

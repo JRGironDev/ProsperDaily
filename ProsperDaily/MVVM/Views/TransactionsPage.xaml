@@ -35,7 +35,7 @@
                     <DatePicker Date="{Binding Transaction.TransactionDate}"/>
                 </Frame>
                 <HorizontalStackLayout VerticalOptions="Center">
-                    <CheckBox IsChecked="{Binding IsIncome}"/>
+                    <CheckBox IsChecked="{Binding Transaction.IsIncome}"/>
                     <Label Text="Is Income?"/>
                 </HorizontalStackLayout>
 

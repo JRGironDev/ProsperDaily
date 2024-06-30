@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YSIFnjYYWss=",
+  "dgSpecHash": "HNtfVD0bpoE=",
   "success": true,
   "projectFilePath": "/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/ProsperDaily.csproj",
   "expectedPackageFiles": [
+    "/Users/josequinonez/.nuget/packages/fody/6.6.3/fody.6.6.3.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/googlegson/2.10.1.4/googlegson.2.10.1.4.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
@@ -28,6 +29,7 @@
     "/Users/josequinonez/.nuget/packages/microsoft.netcore.platforms/1.0.1/microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/microsoft.netcore.targets/1.0.1/microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
+    "/Users/josequinonez/.nuget/packages/propertychanged.fody/4.0.3/propertychanged.fody.4.0.3.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/runtime.any.system.collections/4.0.11/runtime.any.system.collections.4.0.11.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/runtime.any.system.diagnostics.tools/4.0.1/runtime.any.system.diagnostics.tools.4.0.1.nupkg.sha512",
     "/Users/josequinonez/.nuget/packages/runtime.any.system.globalization/4.0.11/runtime.any.system.globalization.4.0.11.nupkg.sha512",

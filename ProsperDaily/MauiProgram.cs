@@ -27,8 +27,8 @@ public static class MauiProgram
 
 		builder.Services.AddSingleton<BaseRepository<Transaction>>();
 
-		//builder.Services.AddSingleton<MainPage>();
-        //builder.Services.AddSingleton<NavigationPage>(s => new NavigationPage(s.GetRequiredService<MainPage>()));
+		builder.Services.AddSingleton<MainPage>();
+        builder.Services.AddSingleton<NavigationPage>(s => new NavigationPage(s.GetRequiredService<MainPage>()));
 
 		return builder.Build();
 	}

@@ -26,26 +26,28 @@
                 <VerticalStackLayout>
                     <Label Text="Total Balance"/>
                     <Label StyleClass="StrongTitle"
-                           Text="$1,234.00"/>
+                           Text="{Binding Balance, StringFormat='{0:C}'}"/>
                 </VerticalStackLayout>
                 <VerticalStackLayout Grid.Row="2">
                     <Label Text="Income"/>
                     <Label StyleClass="StrongSubTitle"
-                           Text="$1,234.00"/>
+                           Text="{Binding Income, StringFormat='{0:C}' }"/>
                 </VerticalStackLayout>
                 <VerticalStackLayout Grid.Row="2"
                                      Grid.Column="1"
                                      HorizontalOptions="Center">
                     <Label Text="Expenses"/>
                     <Label StyleClass="StrongSubTitle"
-                           Text="$1,234.00"/>
+                           Text="{Binding Expenses, StringFormat='{0:C}' }"/>
                 </VerticalStackLayout>
             </Grid>
         </Grid>
 
         <Button Grid.Row="2"
                 StyleClass="CircularButton"
-                Text="+"/>
+                Text="+"
+                x:Name="AddTransaction"
+                Clicked="AddTransaction_Clicked"/>
 
         <Grid Grid.Row="3"
               StyleClass="Margin15"
@@ -75,7 +77,7 @@
                             <Label Text="{Binding Name}"
                                    StyleClass="StrongMediumTitle"/>
                             <Label Grid.Row="1"
-                                   Text="{Binding TransactionDate, StringFormat='{0:MM/dd/yyyy}'}"
+                                   Text="{Binding OperationDate, StringFormat='{0:MM/dd/yyyy}'}"
                                    StyleClass="SmallFont"/>
                             <Label Grid.Column="1"
                                    Grid.RowSpan="2"
