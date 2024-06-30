@@ -77,6 +77,10 @@
               "target": "Package",
               "version": "[2.1.0, )"
             },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.6, )"
+            },
             "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
               "version": "[2.1.2, )"
@@ -136,6 +140,10 @@
               "target": "Package",
               "version": "[2.1.0, )"
             },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.6, )"
+            },
             "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
               "version": "[2.1.2, )"
@@ -194,6 +202,10 @@
             "SQLiteNetExtensions": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.6, )"
             },
             "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",

@@ -55,7 +55,9 @@
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/SQLitePCLRaw.batteries_v2.dll
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/SQLitePCLRaw.nativelibrary.dll
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/SQLitePCLRaw.core.dll
+/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/SQLitePCLRaw.lib.e_sqlite3.ios.dll
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/SQLitePCLRaw.provider.internal.dll
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/Syncfusion.Licensing.dll
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/Syncfusion.Maui.Charts.dll
 /Users/josequinonez/C#/MAUI/ProsperDaily/ProsperDaily/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../ProsperDaily.app/Syncfusion.Maui.Core.dll
