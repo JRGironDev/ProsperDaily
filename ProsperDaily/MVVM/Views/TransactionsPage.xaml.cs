@@ -1,3 +1,5 @@
+using ProsperDaily.MVVM.ViewModels;
+
 namespace ProsperDaily.MVVM.Views;
 
 public partial class TransactionsPage : ContentPage

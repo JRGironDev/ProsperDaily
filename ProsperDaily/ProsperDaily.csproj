@@ -68,8 +68,4 @@
 		<PackageReference Include="Syncfusion.Maui.Charts" Version="26.1.39" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="MVVM/Models/" />
-	</ItemGroup>
-
 </Project>
