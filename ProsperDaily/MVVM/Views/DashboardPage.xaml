@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:ProsperDaily.Converters"
              x:Class="ProsperDaily.MVVM.Views.DashboardPage"
              Title="DashboardPage">
     <Grid RowDefinitions=".15*, .15*, .15*, .55*">
@@ -73,12 +74,18 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid RowDefinitions="*,*"
-                                ColumnDefinitions="*, *">
+                              ColumnDefinitions="*, *">
                             <Label Text="{Binding Name}"
                                    StyleClass="StrongMediumTitle"/>
+
                             <Label Grid.Row="1"
                                    Text="{Binding OperationDate, StringFormat='{0:MM/dd/yyyy}'}"
                                    StyleClass="SmallFont"/>
+
+                            <Label x:Name="lblIsIncome"
+                                   IsVisible="False"
+                                   Text="{Binding IsIncome}"/>
+
                             <Label Grid.Column="1"
                                    Grid.RowSpan="2"
                                    StyleClass="ListAmount"
